@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi Portafolio | Diseño & Código</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <nav>
+        <div class="container nav-content">
+            <div class="logo">Portafolio</div>
+            <div class="nav-links">
+                <a href="#inicio">Inicio</a>
+                <a href="#proyectos">Proyectos</a>
+                <a href="#sobre-mi">Sobre mí</a>
+            </div>
+        </div>
+    </nav>
+
+    <main class="container">
+        <section id="inicio" class="hero">
+            <div class="hero-text">
+                <h1>Soy Lautaro Garay</h1>
+                <p>Desarrollador enfocado en soluciones minimalistas y código eficiente. Convirtiendo ideas en experiencias digitales.</p>
+                <a href="#proyectos" class="btn-primary">Ver Proyectos</a>
+            </div>
+            <div class="hero-img">
+                <img src="diego.png" alt="Foto de perfil">
+            </div>
+        </section>
+
+        <section id="proyectos">
+            <h2>Proyectos</h2>
+            <div id="projects-container" class="projects-grid">
+                </div>
+        </section>
+    </main>
+
+    <section id="sobre-mi" class="contact-section">
+        <div class="container contact-container">
+            <div class="contact-info">
+                <h2>Contacto</h2>
+                <p>¿Buscas un desarrollador para tu próximo proyecto? Hablemos sobre cómo puedo ayudarte.</p>
+                <div class="contact-methods">
+                    <a href="https://www.facebook.com/lauta.garay" class="btn-secondary"target="_blank">Facebook</a>
+                    <a href="https://www.instagram.com/garay.lautaro/?hl=es" class="btn-secondary" target="_blank">Instagram</a>
+                    <a href="https://www.linkedin.com/in/lautaro-garay-868775227/" class="btn-secondary"target="_blank">LinkedIn</a>
+                </div>
+            </div>
+
+            <form id="contact-form" class="contact-form">
+                <div class="form-group">
+                    <label for="name">Nombre</label>
+                    <input type="text" id="name" placeholder="Escribe tu nombre" required>
+                </div>
+                <div class="form-group">
+                    <label for="email">Email</label>
+                    <input type="email" id="email" placeholder="tu@email.com" required>
+                </div>
+                <div class="form-group">
+                    <label for="message">Mensaje</label>
+                    <textarea id="message" rows="4" placeholder="¿En qué puedo ayudarte?" required></textarea>
+                </div>
+                <button type="submit" class="btn-primary w-full">Enviar Mensaje</button>
+            </form>
+        </div>
+    </section>
+
+    <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,20 @@
+[
+  {
+    "titulo": "Siffrah",
+    "tecnologia": "React, nodejs,typescript",
+    "descripcion": "Pagina de venta online de indumentaria.",
+    "link": "https://www.siffrah-hombres.com.ar"
+  },
+  {
+    "titulo": "Gestor de turnos",
+    "tecnologia": "React, nodejs,typescript",
+    "descripcion": "Gestor de turnos editable",
+    "link": "https://turnos-2026.vercel.app/"
+  },
+  {
+    "titulo": "Gestor de ventas y stock",
+    "tecnologia": "python",
+    "descripcion": "app de uso local para gestionar ventas y stock",
+    "link": "https://github.com/LautaroG137/sistema-de-ventas"
+  }
+]
