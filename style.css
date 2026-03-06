@@ -90,7 +90,9 @@ nav {
 .card {
     background: var(--bg-white); border: 1px solid var(--border);
     border-radius: 16px; padding: 24px; opacity: 0;
+    transform: translateY(20px); transition: all 0.5s ease;
 }
+.card:hover { transform: translateY(-8px); box-shadow: 0 20px 25px -5px rgba(0,0,0,0.05); }
 .tag { font-size: var(--size-tag); font-weight: 500; background: var(--bg-general); color: var(--primary); padding: 4px 12px; border-radius: 9999px; display: inline-block; margin-bottom: 12px; }
 .link-action { color: var(--primary); font-weight: 500; font-size: var(--size-body-small); }
 
@@ -117,6 +119,7 @@ nav {
     .projects-grid { grid-template-columns: 1fr; }
     .contact-container { grid-template-columns: 1fr; }
 }
+
 
 
 
