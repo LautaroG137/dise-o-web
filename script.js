@@ -8,7 +8,7 @@ document.addEventListener('DOMContentLoaded', () => {
                 revealObserver.unobserve(entry.target);
             }
         });
-    }, { threshold: 0.15 });
+    }, { threshold: 0.50 });
 
     // 2. Carga de JSON y Renderizado
     async function loadProjects() {
@@ -62,4 +62,5 @@ document.addEventListener('DOMContentLoaded', () => {
         const nav = document.querySelector('nav');
         nav.style.boxShadow = window.scrollY > 20 ? "0 4px 10px rgba(0,0,0,0.05)" : "none";
     });
+
 });
