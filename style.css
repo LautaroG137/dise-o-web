@@ -112,11 +112,12 @@ nav {
 .form-group input:focus, .form-group textarea:focus { border-color: var(--primary); }
 
 /* ANIMACIONES */
-.reveal { opacity: 1 !important; transform: translateY(0) scale(1) !important; }
+.reveal { opacity: 1 !important;}
 
 @media (max-width: 768px) {
     .hero { flex-direction: column-reverse; text-align: center; }
     .projects-grid { grid-template-columns: 1fr; }
     .contact-container { grid-template-columns: 1fr; }
 }
+
 
